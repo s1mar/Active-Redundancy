@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 's1.mar'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+ext{
+
+    KYRO_NET_VER="2.22.0-RC1"
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20080701'
+
+    implementation "com.esotericsoftware:kryonet:$KYRO_NET_VER"
+
+}
