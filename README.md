@@ -18,4 +18,7 @@ The purpose of this project is to demonstrate the concept of Active Redundancy a
     ![Image](https://github.com/s1mar/Active-Redundancy/blob/master/screens/2.jpg?raw=true)
         In the above image we can see the attached AR module with the Environment perception, trying to revive it.
 
+#### How to Run
+    After compilation, launch the Supervisor.java class.
+
 
