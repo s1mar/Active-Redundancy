@@ -18,7 +18,13 @@ The purpose of this project is to demonstrate the concept of Active Redundancy a
     ![Image](https://github.com/s1mar/Active-Redundancy/blob/master/screens/2.jpg?raw=true)
         In the above image we can see the attached AR module with the Environment perception, trying to revive it.
 
+#### Availability Tactics
+  - **Fault Detection** : Makes use of the Heart Beat tactic for fault detection.
+  - **Recovery Preparation & Repair** : One can have multiple processes of the same type and the active redundancy module conjures new  ones when those fail. So, this solution supports both hot and cold handovers.
+  - **Recovery Reintroduction** : The Active Redundancy(AR) module can also be configured to revive with last known state data.
+  - **Prevention** : The Supervisor knows as soon as a module goes offline, and the AR module supports post revival health check, it monitors when the revived module comes fully online, and is also capable of executing additional actions(cleanup,configuration changes,etc.) when that happens. 
+
 #### How to Run
-    After compilation, launch the Supervisor.java class.
+    After compilation, please launch the Supervisor.java class.
 
 
